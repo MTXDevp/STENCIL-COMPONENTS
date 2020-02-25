@@ -8,6 +8,10 @@ import { Component, h } from '@stencil/core';
 })
 export class AppRoot {
 
+  componentDidLoad() {
+    console.log('El componente AppRoot se ha renderizado!!!');
+  }
+
   render() {
     return (
       <div>

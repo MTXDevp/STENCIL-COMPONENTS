@@ -7,15 +7,11 @@
 
 
 import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
-import {
-  MatchResults,
-} from '@stencil/router';
+
 
 export namespace Components {
   interface AppHome {}
-  interface AppProfile {
-    'match': MatchResults;
-  }
+  interface AppProfile {}
   interface AppRoot {}
 }
 
@@ -48,9 +44,7 @@ declare global {
 
 declare namespace LocalJSX {
   interface AppHome {}
-  interface AppProfile {
-    'match'?: MatchResults;
-  }
+  interface AppProfile {}
   interface AppRoot {}
 
   interface IntrinsicElements {

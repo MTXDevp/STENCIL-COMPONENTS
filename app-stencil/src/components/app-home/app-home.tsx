@@ -7,6 +7,10 @@ import { Component, h } from '@stencil/core';
 })
 export class AppHome {
 
+  componentDidLoad() {
+    console.log('El componente AppHome se ha renderizado!!!');
+  }
+
   render() {
     return (
       <div class='app-home'>
